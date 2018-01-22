@@ -1,0 +1,143 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12;
+  /* from Bootstrap Sticky footer template */
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background-color:#fee7e2;
+}
+
+header {
+  padding: 20px 0px;
+}
+
+header .strip {
+  height:180px;
+}
+
+footer {
+  padding: 20px;
+  margin-top:20px;
+  font-size:11;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  margin-bottom:0px;
+}
+
+nav{
+  padding-top:5px;
+  padding-bottom:0px;
+  font-size:14;
+  letter-spacing:0.8em;
+}
+
+h1{
+  font:inherit;
+  font-size:22;
+  color:black;
+}
+
+h1, a{
+  color: black;
+}
+
+h2{
+  padding-top:0px;
+  font-size:20;
+  font-weight:800;
+  line-height:
+}
+
+h3{
+  font-size:18;
+  font-style:italic;
+}
+
+/* make all headings a little thinner */
+h1, h2, h3, h4, h5, h6{
+  font-weight:300;
+  margin-bottom:15px;
+}
+
+.song-name{
+  font-style:italic;
+}
+
+.stand-alone-text {
+  max-width:400px;
+}
+
+.strip{
+  background-color: #f84216;
+}
+
+.site-title {
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+.site-title h1{
+  font-style:italic;
+  font-size:26;
+  letter-spacing:0.12em;
+}
+
+.page-title {
+  letter-spacing:0.2em;
+  padding-top:15px;
+  padding-left:10px;
+}
+
+.current-page{
+  font-size:18;
+  font-weight: 900;
+  text-shadow:2px;
+}
+
+.section-title{
+  padding-left:10px;
+}
+
+.container {
+  margin-left: 5%;
+}
+
+.container-fluid{
+  padding-left:5%;
+}
+
+.content{
+  padding-left:5%;
+  padding-top:20px;
+}
+
+.post{
+  padding: 20px 30px;
+  max-width:600px;
+  border: black dotted 1px;
+  border-radius:10px;
+  margin-bottom:30px;
+  background-color:#FCF9F8;
+}
+
+.post-title{
+  padding:5px 0px;
+}
+
+.post-date{
+  margin-top:20px;
+  font-size:0.85em;
+  font-style:italic;
+  font-weight:500;
+}
+
+.article-title, .song-name{
+  font-weight:600;
+}

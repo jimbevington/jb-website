@@ -1,0 +1,85 @@
+<!-- Jim Bevington - SOFTWARE -->
+
+<!$DOCTYPE html>
+<html>
+<head>
+  <title>
+  Jim Bevington - SOFTWARE
+  </title>
+
+  <!-- Bootstrap stuff -->
+  <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- STYLESHEETS -->
+      <!-- Bootstrap stylesheet -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+      <!-- My stylesheet -->
+      <link rel="stylesheet" href="jb-style.css">
+</head>
+
+<body>
+  <!-- Site Header -->
+  <header class="container-fluid strip">
+    <!-- Page Title -->
+    <div class="row">
+      <div class="col-sm-12 site-title">
+        <!-- Title is link to Homepage -->
+        <h1><a href="index.html">Jim Bevington</a></h1>
+      </div>
+    </div>
+    <!-- Navigation Section -->
+    <div class="row">
+      <nav>
+        <span class="col-sm-1"><a href="music.html">MUSIC</a></span>
+        <span class="col-sm-1 current-page"><a href="software.html">SOFTWARE</a></span>
+        <span class="col-sm-1"><a href="words.html">WORDS</a></span>
+        <!-- This empty <span> holds Nav links in place when none are
+             highlighted -->
+        <span class="col-sm-1" id="empty-nav"><span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Page Content -->
+  <div class="container-fluid content">
+
+    <!-- Post, e.g a blog entry, song + description -->
+    <div class="post">
+      <!-- Post Title -->
+      <header class="post-title">
+        <h3 class="song-name">'Nanna' - a Max UI for CLM Granular Syntheis</h3>
+      </header>
+      <!-- Post Content -->
+      <div class="post-text">
+        <p>This software package allows users to control the
+          <italic>grani</italic> CLM instrument by Fernando Lopez-Lezcarno using
+          Max/MSP.</p>
+          <p>Envelopes for key grain parameters can be specified for up to 5
+          simultaneous grain streams using XY breakpoint graphs. This
+          approach combines the high audio quality of CLM's offline processing
+          with the intuitiveness offered by Max/MSPs UI objects.</p>
+          <!-- Heres a link to an article I haven't put on the site yet -->
+          <p>A more detailed description of the software design can be found
+          <a href="words.html#Honey">here</a>.</p>
+        </p>
+        <!-- Software isn't folder yet -->
+        <a href="nanna-software.zip" download>Download Nanna</a>
+      </div>
+      <!-- Date of the Post -->
+      <div class="post-date">Posted: 1st January 2018</div>
+    </div>
+  </div>
+
+  <!-- Site Footer sits at bottom of viewport, rather than page -->
+  <footer class="container-fluid strip">
+    <p class="col-sm-4">&copy; Jim Bevington
+      <!-- Add current year -->
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+    </p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!-- 'Jim Bevington - Music, Software, Words'
+      HOME PAGE
+     build out each page from this starting point -->
+
+<!$DOCTYPE html>
+<html>
+<head>
+  <title>
+  Jim Bevington | MUSIC | SOFTWARE | WORDS
+  </title>
+
+  <!-- Bootstrap stuff -->
+  <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- STYLESHEETS -->
+      <!-- Bootstrap stylesheet -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+      <!-- My stylesheet -->
+      <link rel="stylesheet" href="jb-style.css">
+</head>
+
+<body>
+  <!-- Site Header -->
+  <header class="container-fluid strip">
+    <!-- Page Title -->
+    <div class="row">
+      <div class="col-sm-12 site-title">
+        <!-- Title is link to Homepage -->
+        <h1><a href="index.html">Jim Bevington</a></h1>
+      </div>
+    </div>
+    <!-- Navigation -->
+    <div class="row">
+      <nav>
+        <span class="col-sm-1"><a href="music.html">MUSIC</a></span>
+        <span class="col-sm-1"><a href="software.html">SOFTWARE</a></span>
+        <span class="col-sm-1"><a href="words.html">WORDS</a></span>
+        <!-- This empty <span> holds Nav links in place when none are
+             highlighted -->
+        <span class="col-sm-1 current-page" id="empty-nav"><span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Page Content -->
+  <div class="container-fluid content">
+    <div class="stand-alone-text" id="blurb">
+      <br>
+      <p>I am a composer, sound designer and software developer with a special
+        interest in digital composition and music psychology.</p>
+        <br>
+        <!-- Email Link -->
+        <a href="mailto:bevingtonaudio@gmail.com">Hit me up!</a>
+    </div>
+  </div>
+
+  <!-- Site Footer sits at bottom of viewport, rather than page -->
+  <footer class="container-fluid strip">
+    <p class="col-sm-4">&copy; Jim Bevington
+      <!-- Add current year -->
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+    </p>
+  </footer>
+
+</body>
+
+</html>
